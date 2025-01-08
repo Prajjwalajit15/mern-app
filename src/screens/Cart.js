@@ -23,7 +23,7 @@ export default function Cart() {
     }
 
     try {
-      let response = await fetch("http://localhost:5000/api/orderData", {
+      let response = await fetch("https://mern-app-backend-so3k.onrender.com/api/orderData", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

@@ -28,7 +28,7 @@ export default function Signup() {
       });
       console.log("Request Body Sent:", requestBody);
 
-      const response = await fetch("http://localhost:5000/api/creatuser", {
+      const response = await fetch("https://mern-app-backend-so3k.onrender.com/api/creatuser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

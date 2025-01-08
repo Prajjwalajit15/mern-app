@@ -15,7 +15,7 @@ export default function Login() {
             });
             console.log("Request Body:", requestBody);
     
-            const response = await fetch("http://localhost:5000/api/loginuser", {
+            const response = await fetch("https://mern-app-backend-so3k.onrender.com/api/loginuser", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
